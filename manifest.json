@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "A cleaner hackernews",
+    "version": "0.1.0",
+    "description": "Makes hackernews more readable",
+    "content_scripts": [
+        {
+            "css": [
+                "index.css"
+            ],
+            "matches": [
+                "https://news.ycombinator.com/*"
+            ]
+        }
+    ]
+}

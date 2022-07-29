@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+
+* {
+  font-family: "Inter" !important;
+}
+
+body,
+#hnmain {
+  background-color: rgb(247, 247, 247) !important;
+}
+
+#hnmain > tbody > tr:nth-child(1) > td > table {
+  padding: 14px !important;
+}
+
+#hnmain > tbody > tr:nth-child(1) > td {
+  border-radius: 6px !important;
+}
+.title {
+  font-size: 1.2222222em !important;
+  line-height: 1.4545455 !important;
+  font-weight: 500;
+}
+
+.spacer {
+  height: 40px !important;
+}
+
+.rank {
+  display: none !important;
+}
+
+.title a:link {
+  color: #374151 !important;
+}
+
+.sitestr {
+  color: #64748b !important;
+}
+
+.subtext {
+  font-size: 12px !important;
+  color: #9ca3af !important;
+}
+
+.subtext > .hnuser {
+  font-weight: 500 !important;
+}
+
+.votearrow {
+  display: none !important;
+}
+
+#hnmain {
+  max-width: 65% !important;
+}
+
+#pagespace {
+  height: 25px !important;
+}
+
+/* // item page */
+
+textarea {
+  border-radius: 6px;
+  border: 1px solid rgb(209, 213, 219);
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+input[type="submit"] {
+  background-color: #ff6600;
+  padding: 8px 12px;
+  color: white;
+  border: none;
+  border-radius: 0.35rem;
+}
+
+.pagetop,
+.pagetop > a,
+#hnname,
+.pagetop a:visited {
+  color: #374151 !important;
+}
